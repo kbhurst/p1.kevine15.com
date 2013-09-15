@@ -1,0 +1,78 @@
+
+body {background:#990000; 
+	  margin:0;}
+
+#outline
+	{position: absolute;
+	top:50%;
+	left:0%;
+	width:100%;
+	height: 0px;}
+
+
+#inside
+	{position: absolute;
+	 margin-left: -250px;
+	 top:-150px;
+	 left:50%;
+	 width:700px;
+	 height:300px;}
+
+.projectname 					
+		{font-size: 150px;
+		 color:#909090;
+		 font-family:arial, helvetica, sans serif;
+		 position:absolute;
+		 top:50px;
+		 left:-100px;
+		 right:-80px}
+	
+
+div#homelink, div#aboutmelink, div#validatelink
+         {color:#000000;
+		  font-family:verdana, helvetica, sans serif;
+		  position:absolute;}
+
+
+div#homelink {font-size:29px;
+		top:6px;
+		left:0px;
+	color:#000000;}
+
+		
+div#aboutmelink {font-size:39px;
+		top:200px;
+		left:260px;}
+		
+div#validatelink {font-size:45px;
+		top:-5px;
+		left:200px;}
+		
+
+
+/* This is from the w3 schools.  I'm using this as a template and changing
+things around. 
+All unvisited links should be red */
+a:link {
+    color: red;
+    text-decoration:none;
+}
+
+/* This is from the w3 schools.  I'm using this as a template and changing
+things around.  
+All visited links should be slightly darker */
+a:visited {
+    color: maroon;
+    text-decoration:none;
+}
+
+/*This is from the w3 schools.  I'm using this as a template and changing
+things around.  
+But no matter what, header links must be white at all times!*/
+body > header > a {
+    color: white;
+}
+a:hover, a:active {
+    text-shadow: 0 0 0.5em currentColor;
+    outline: 0;
+
