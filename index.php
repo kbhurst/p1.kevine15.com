@@ -19,9 +19,9 @@
 			
 			<div class="projectname">project one</div>
 			
-      <div id="homelink"><a href="home.html">home</a></div>
-      <div id="aboutmelink"><a href="about.html">about me</div>
-      <div id="validatelink"><a href="validate.html">validate link--working</a></div>
+      <div id="homelink"><a href="home.html">code editor</a></div>
+      <div id="aboutmelink"><a href="about.html">about me</a></div>
+     <!-- <div id="validatelink"><a href="validate.html">validate link working</a></div>-->
 			</div>
 		</div>
 		
