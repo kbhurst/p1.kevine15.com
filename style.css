@@ -28,26 +28,22 @@ body {background:#990000;
 		 right:-80px}
 	
 
-div#homelink, div#aboutmelink, div#validatelink
+div#homelink, div#aboutmelink
          {color:#000000;
 		  font-family:verdana, helvetica, "sans serif";
 		  position:absolute;}
 
 
-div#homelink {font-size:29px;
-		top:6px;
+div#homelink 
+              {font-size:38px;
+		top:16px;
 		left:0px;}
 
 		
-div#aboutmelink {font-size:39px;
-		top:200px;
-		left:260px;}
-		
-div#validatelink {font-size:45px;
-		top:-5px;
-		left:200px;}
-		
-
+div#aboutmelink {font-size:49px;
+		top:205px;
+		left:266px;}
+				
 
 /* This is from the w3 schools.  I'm using this as a template and changing
 things around. 
@@ -72,12 +68,9 @@ body > header > a {
     color: white;
 }
 a:hover, a:active {
-    text-shadow: 0 0 0.5em currentColor;
+    text-shadow: 0 0 0.7em currentColor;
     outline: 0;
 }
-
-
-
 
 
 #content {
@@ -88,34 +81,8 @@ a:hover, a:active {
 	line-height: 25px; 
 	text-align: justify; 
 	word-spacing: 2px;
-	text-align: left; /* Cancel IE Fix */
+	text-align: left; 
 	color:white;
 	padding: 10px 30px;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	}	
-
-div#urltext {font-family:verdana, helvetica, "sans serif";
-			 font-size:30px;
-			 position:absolute;
-			 top:15%;
-			 left:15%;
-			 color:#ff7c11}
-
-#urltext a:link {color:#444}
-#urltext a:visited {color:#444}
-#urltext a:hover {color:#444}
-#urltext a:active {color:#444}
-
-div#close, div#top 
-          {width:17px;
-		   height:17px;
-		   background:none;
-		   text-align:center;
-		   font-family:verdana, helvetica, "sans serif";
-		   font-weight:bold;
-		   font-size:12px;
-		   border: 1px solid #222}
-   
-div#top {position:relative;
-		   left:573px;
-		   top:319px}
